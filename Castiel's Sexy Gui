@@ -3,5 +3,5 @@ local PlayerId = game.Players.LocalPlayer.UserId
 if PlayerId == 2395676617 or 2320128064 then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1Castiel/Castiel-Gui/main/Castiel%20Gui"))()
 else
-    Player:Kick("fucking loser")
+    game.Players.LocalPlayer:Kick("fucking loser")
 end
